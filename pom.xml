@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cn.pomit</groupId>
+	<artifactId>consul-proxy-test</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>consul-proxy-test</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.40</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sunlands.gateway</groupId>
+            <artifactId>apigateway-sdk</artifactId>
+            <version>2.3-SNAPSHOT</version>
+        </dependency>
+		<dependency>
+			<groupId>cn.pomit</groupId>
+			<artifactId>consul-proxy</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>
