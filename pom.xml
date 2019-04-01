@@ -14,20 +14,25 @@
 	</properties>
 	<dependencies>
 		<dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.40</version>
-        </dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.40</version>
+		</dependency>
 
-        <dependency>
-            <groupId>com.sunlands.gateway</groupId>
-            <artifactId>apigateway-sdk</artifactId>
-            <version>2.3-SNAPSHOT</version>
-        </dependency>
+		<dependency>
+			<groupId>com.sunlands.gateway</groupId>
+			<artifactId>apigateway-sdk</artifactId>
+			<version>2.3-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>cn.pomit</groupId>
 			<artifactId>consul-proxy</artifactId>
 			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
 </project>
