@@ -8,7 +8,7 @@ import cn.pomit.consul.annotation.EnableServer;
 @EnableServer(handler={FalconAlarmHandler.class,GatewayAlarmHandler.class})
 public class AlarmApp {
 	public static void main(String[] args) {
-		ConsulProxyApplication.run(AlarmApp.class);
+		ConsulProxyApplication.run(AlarmApp.class, args);
 	}
 
 }
