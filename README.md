@@ -1,9 +1,12 @@
 ## Consul-proxy-test简介
 
-Consul-proxy的demo项目。
+Consul-proxy和mybatis-proxy的demo项目。
 
 ## [Gitee-Consul-proxy](https://gitee.com/ffch/consul-proxy)
 ## [Github-Consul-proxy](https://github.com/ffch/consul-proxy)
+
+## [Gitee-Mybatis-proxy](https://gitee.com/ffch/mybatis-proxy)
+## [Github-Mybatis-proxy](https://github.com/ffch/mybatis-proxy)
 
 ## [Gitee-Consul-proxy-test](https://gitee.com/ffch/consul-proxy-test)
 ## [Github-Consul-proxy-test](https://github.com/ffch/consul-proxy-test)
@@ -13,7 +16,7 @@ Consul-proxy的demo项目。
 
 Consul-proxy-test是一个完整逻辑的项目，主要功能是转发请求。
 
-配置文件已隐去，需要自己填写。
+部分配置文件已隐去，需要自己填写。
 
 
 ## 作者信息

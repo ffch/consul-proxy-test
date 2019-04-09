@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.pomit.alarm.mapper.UserInfoMapper">
+	<resultMap id="baseResultMap" type="cn.pomit.alarm.domain.UserInfo">
+		<id column="userName" jdbcType="VARCHAR" property="userName" />
+		<result column="passwd" jdbcType="VARCHAR" property="passwd" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="mobile" jdbcType="VARCHAR" property="mobile" />
+		<result column="valid" jdbcType="VARCHAR" property="valid" />
+	</resultMap>
+
+	<select id="selectByUserName" resultMap="baseResultMap">
+		select userName,passwd,name,mobile,valid from user_info where userName = #{userName}
+		
+	</select>
+
+	<insert id="save">
+		insert into user_info (userName,passwd,name,mobile,valid)
+		values (#{userName},#{passwd},#{name},#{mobile},#{valid})
+	</insert>
+</mapper>
